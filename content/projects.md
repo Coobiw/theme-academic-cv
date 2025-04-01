@@ -1,6 +1,6 @@
 ---
 title: 'Projects'
-date: 2024-05-19
+date: "2025-04-02"
 type: landing
 
 design:
@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: 😺 I enjoy open-sourcing. Here are a selection of projects that I've led or served as the core contributor.
       filters:
         folders:
           - project

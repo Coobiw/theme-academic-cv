@@ -1,12 +1,12 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: "2025-04-02"
 type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "3rem"
 
 sections:
   - block: resume-biography-3
@@ -15,9 +15,6 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
     design:
       css_class: dark
       background:
@@ -26,26 +23,27 @@ sections:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 0.55
           size: cover
           position: center
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🔥 News'
       subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+      text: |
+        - 2025.02: 🎉🎉🎉 [ChartMoE](https://github.com/IDEA-FinAI/ChartMoE) is selected as ICLR2025 Oral(1.8%)! [<img src="https://img.shields.io/github/stars/IDEA-FinAI/ChartMoE" style="width: auto; height: 20px; vertical-align: top; display: inline; margin: 0 2px;">](https://github.com/IDEA-FinAI/ChartMoE)
+        - 2025.01: 🎉🎉 [ChartMoE](https://github.com/IDEA-FinAI/ChartMoE) is accepted by ICLR2025!
+        - 2024.10:  🎉🎉 We release [Aria](https://github.com/rhymes-ai/Aria), a native LMM that excels on text, code, image, video, PDF and more! [<img src="https://img.shields.io/github/stars/rhymes-ai/Aria" style="width: auto; height: 20px; vertical-align: top; display: inline; margin: 0 2px;">](https://github.com/rhymes-ai/Aria)
+        - 2024.09: 💥💥 We release [ChartMoE](https://github.com/IDEA-FinAI/ChartMoE), a MLLM with MoE connector, for advanced chart 1️⃣understanding, 2️⃣replot, 3️⃣editing, 4️⃣highlighting and 5️⃣transformation.
+        - 2023.12: 💥 [MPP-Qwen-Next](https://github.com/Coobiw/MPP-LLaVA) is released! ***Prevent poverty (24GB of VRAM) from limiting imagination.*** All 7B/14B llava-like training is conducted on RTX3090 GPUs by Pipeline Parallel. [<img src="https://img.shields.io/github/stars/Coobiw/MPP-LLaVA" style="width: auto; height: 20px; vertical-align: top; display: inline; margin: 0 2px;">](https://github.com/Coobiw/MPP-LLaVA)
     design:
       columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Selected Outputs
+      text: "🌟 is me. * Equal Contribution (i.e.: Co-First Author). 📧 Corresponding Author."
       filters:
         folders:
           - publication
@@ -55,8 +53,8 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
-      text: ""
+      title: Core-Authored Publications
+      text: "🌟 is me. * Equal Contribution (i.e.: Co-First Author). 📧 Corresponding Author."
       filters:
         folders:
           - publication
@@ -64,44 +62,16 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Selected Projects
+      text: 😺 I enjoy open-sourcing. Here are a selection of projects that I've led or served as the core contributor.
       filters:
         folders:
-          - event
+          - project
     design:
       view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      fill_image: false
+      columns: 2
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

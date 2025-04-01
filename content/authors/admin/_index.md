@@ -1,17 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Bowen Qu
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Brian
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+first_name: Bowen
+last_name: Qu
 
 # Is this the primary user of the site?
 superuser: true
@@ -19,168 +15,100 @@ superuser: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Role/position/tagline
-role: Chief Scientist
-
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: OpenAI
-    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:brian.bw.qu@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/Coobiw
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Coobiw
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/bowen-qu/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=m8ttvBkAAAAJ&hl=en&authuser=2
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Vision-Language Model(VLM)
+  - MLLM Reasoning
+  - Al-Generated Image/Video Quality Assesment
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Master of Science
+    institution: Peking University (PKU)
+    date_start: '2022-09-01'
+    date_end: '2025-06-30'
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+        Vision-Language Models, MLLM Reasoning, AI-Generated Image/Video Quality Assesment
+  - area: Bachelor of Engineering
+    institution: Huazhong University of Science and Technology (HUST)
+    date_start: '2018-09-01'
+    date_end: '2022-06-30'
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Grade: 3.9/4
+        Honours Bachelor Degree (Summa Cum Laude, Top 2%)
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - position: Research Intern
+    company_name: 01.ai (零一万物) & Rhymes.ai
+    company_url: 'https://github.com/rhymes-ai'
+    # company_logo: 'https://avatars.githubusercontent.com/u/177642566?s=200&v=4'
+    date_start: '2024-05-01'
+    date_end: '2024-12-01'
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Core Contributor of Aria (an Open Multimodal Native MoE)
+  - position: Research Intern
+    company_name: IDEA (International Digital Economy Academy)
+    company_url: 'https://github.com/IDEA-FinAI'
+    # company_logo: 'https://avatars.githubusercontent.com/u/149999489?s=200&v=4'
+    date_start: '2024-02-01'
+    date_end: '2024-07-01'
+    summary: |
+        Co-first Author of ICLR2025(Oral) - ChartMoE: Mixture of Diversely Aligned Expert Connector for Chart Understanding
+  - position: Research Intern
+    company_name: Huawei Noah's Ark Lab
+    company_url: 'https://github.com/huawei-noah'
+    # company_logo: 'https://avatars.githubusercontent.com/u/12619994?s=200&v=4'
+    date_start: '2023-07-01'
+    date_end: '2024-01-01'
+    summary: |
+        Preliminary Research about MLLM on Document Recognition, Parsing and Understannding.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: 🥉3rd winner of NTIRE 2024 Quality Assessment for AI-Generated Content - Track 2 Video
+    url: https://codalab.lisn.upsaclay.fr/competitions/17621#learn_the_details
+    certificate_url: https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Qu_Exploring_AIGC_Video_Quality_A_Focus_on_Visual_Harmony_Video-Text_CVPRW_2024_paper.pdf
+    date: '2024-04-01'
+    awarder: CVPR & NTIRE
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Exploring AIGC Video Quality: A Focus on 1️⃣Visual Harmony, 2️⃣Video-Text Consistency and 3️⃣Domain Distribution Gap. 
+      
+      Paper: [https://arxiv.org/abs/2404.13573](https://arxiv.org/abs/2404.13573)
+  - title: 🥈Kaggle Silver Medal：Stable Diffusion - Image to Prompts
+    url: https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts
+    certificate_url: https://www.kaggle.com/kyriebob/competitions
+    date: '2023-05-01'
+    awarder: Kaggle
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      As a captain, win a silver medal🥈.(42/1231, Top3%)
+  - title: '🏅Honorous Bachelor Degree'
+    date: '2022-06-30'
+    awarder: Huazhong University of Science and Technology (HUST)
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Honours Bachelor Degree (Summa Cum Laude, Top 2%), due to GPA, scientific research achievements, and student work awards.
 ---
-
 ## About Me
+👋Hi, I'm Bowen(Brian) Qu. My research interests include Vision-Language Model and MLLM Reasoning.
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+- **Education:** I'm an MPhil. Candidate at [School of Electronic and Computer Science (SECE)](https://www.ece.pku.edu.cn/en/), [Peking University (PKU)](https://english.pku.edu.cn/), since 2022 fall. Previously, I received the Honours B.E. degree at [School of Electronic Information and Communications (EIC)](http://ei.hust.edu.cn/), [Huazhong University of Science and Technology (HUST)](https://www.hust.edu.cn/) in June, 2022.
+- **Experience:** Fortunately, I have the honor to participate in some interesting MLLM research projects:
+  - [2024.05 - 2024.12] **01.ai & Rhymes.ai**, Multimodal Team, supervised by [Junnan Li](https://scholar.google.com/citations?user=MuUhwi0AAAAJ&hl=en&authuser=2), working closely with [Dongxu Li](https://scholar.google.com/citations?user=h5XtaUUAAAAJ&hl=en&authuser=2) and [Haoning Wu](https://teowu.github.io/). *Output:* [Aria(multimodal native MoE)](https://github.com/rhymes-ai/Aria) [<img src="https://img.shields.io/github/stars/rhymes-ai/Aria" style="width: auto; height: 20px; vertical-align: top; display: inline; margin: 0 2px;">](https://github.com/rhymes-ai/Aria) 
+  - [2024.02 - 2024.07] **IDEA Research**, working closely with [Zhengzhuo Xu](https://xuzhengzhuo.com/), [Yiyan Qi](https://scholar.google.com/citations?user=ZG9GqnMAAAAJ&hl=en) and [Chengjin Xu](https://scholar.google.de/citations?user=sIts5VgAAAAJ&hl=zh-CN). *Output:* [ChartMoE(ICLR2025 Oral)](https://github.com/IDEA-FinAI/ChartMoE) [<img src="https://img.shields.io/github/stars/IDEA-FinAI/ChartMoE" style="width: auto; height: 20px; vertical-align: top; display: inline; margin: 0 2px;">](https://github.com/IDEA-FinAI/ChartMoE)
+- **Status:** I expect to receive a master's degree in June, 2025. I'm open to academic collaboration opportunities. Feel free to drop me an [📧](mailto:brian.bw.qu@gmail.com) if there is a good fit!
