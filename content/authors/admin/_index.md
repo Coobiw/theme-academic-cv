@@ -105,7 +105,7 @@ awards:
       Honours Bachelor Degree (Summa Cum Laude, Top 2%), due to GPA, scientific research achievements, and student work awards.
 ---
 ## About Me
-👋Hi, I'm Bowen(Brian) Qu. My research interests include Vision-Language Model and MLLM Reasoning.
+👋Hi, I'm Bowen(Brian) Qu. My research interests include Vision-Language Model and MLLM Reasoning. The logo of this website is my lovely cat - Baka (巴卡 in Chinese)!
 
 - **Education:** I'm an MPhil. Candidate at [School of Electronic and Computer Science (SECE)](https://www.ece.pku.edu.cn/en/), [Peking University (PKU)](https://english.pku.edu.cn/), since 2022 fall. Previously, I received the Honours B.E. degree at [School of Electronic Information and Communications (EIC)](http://ei.hust.edu.cn/), [Huazhong University of Science and Technology (HUST)](https://www.hust.edu.cn/) in June, 2022.
 - **Experience:** Fortunately, I have the honor to participate in some interesting MLLM research projects:
