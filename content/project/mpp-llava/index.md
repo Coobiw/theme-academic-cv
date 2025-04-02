@@ -1,5 +1,5 @@
 ---
-title: MPP-Qwen-Next
+title: MPP-Qwen-Next (400+ ⭐)
 date: 2023-12-25
 external_link: https://github.com/Coobiw/MPP-LLaVA
 tags:

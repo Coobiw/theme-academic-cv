@@ -1,5 +1,5 @@
 ---
-title: Aria
+title: Aria (1000+ ⭐)
 date: 2024-10-10
 external_link: https://github.com/rhymes-ai/Aria
 tags:
